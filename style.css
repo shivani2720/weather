@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:antiquewhite;
+    padding: 1em;
+}
+
+/* styling for main section */
+
+.main-section{
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.right {
+   
+    border: 1px solid black;
+    margin-top: 1.1em;
+    display: none;
+    padding: 2em;
+
+}
+
+input,
+button {
+    border: none;
+    background-color: rgb(203, 196, 196);
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    
+}
+#btn{
+    margin-left: 1em;
+}
+
+
+.result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0em  1em;
+}
+.img{
+    width: 40%;
+    height:40%;
+}
+.temp{
+    width: 30%;
+    height: 60%;
+    margin-right: 0.5em;
+}
